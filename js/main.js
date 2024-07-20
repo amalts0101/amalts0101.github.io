@@ -131,6 +131,9 @@
 
 	// Loading page
 	var loaderPage = function() {
+		console.log('--------------------------')
+		console.log(GOOGLE_MAP_API_KEY)
+		console.log('--------------------------')
 		$(".fh5co-loader").fadeOut("slow");
 	};
 
