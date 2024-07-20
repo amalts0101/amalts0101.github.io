@@ -146,7 +146,7 @@
 		var message = encodeURIComponent($('#message').val());
 
 		// Construct mailto link
-		var mailtoLink = 'mailto:?subject=' + subject + '&body=First Name: ' + fname + '%0D%0ALast Name: ' + lname + '%0D%0AEmail: ' + email + '%0D%0AMessage: ' + message;
+		var mailtoLink = 'mailto:amalts0101@gmail.com?subject=' + subject + '&body=First Name: ' + fname + '%0D%0ALast Name: ' + lname + '%0D%0AEmail: ' + email + '%0D%0AMessage: ' + message;
 
 		// Open mail client
 		window.location.href = mailtoLink;
